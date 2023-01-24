@@ -15,5 +15,11 @@ export default defineComponent({
       value: "",
     };
   },
+  created() {
+    console.log("作られた");
+  },
+  updated() {
+    console.log("update!!");
+  },
 });
 </script>
